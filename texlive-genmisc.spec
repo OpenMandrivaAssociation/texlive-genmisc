@@ -1,5 +1,11 @@
+# revision 20683
+# category Package
+# catalog-ctan undef
+# catalog-date undef
+# catalog-license undef
+# catalog-version undef
 Name:		texlive-genmisc
-Version:	20111102
+Version:	20111103
 Release:	1
 Summary:	TeXLive genmisc package
 Group:		Publishing
@@ -73,6 +79,7 @@ TeXLive genmisc package.
 %{_texmfdistdir}/tex/generic/genmisc/weekday.sty
 %{_texmfdistdir}/tex/generic/genmisc/wiggly.tex
 %{_texmfdistdir}/tex/generic/genmisc/zip.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -83,3 +90,5 @@ TeXLive genmisc package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
