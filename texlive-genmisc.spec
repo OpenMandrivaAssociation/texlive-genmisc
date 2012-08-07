@@ -1,12 +1,12 @@
-# revision 20683
+# revision 27208
 # category Package
 # catalog-ctan undef
 # catalog-date undef
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-genmisc
-Version:	20111103
-Release:	2
+Version:	20120807
+Release:	1
 Summary:	TeXLive genmisc package
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -48,7 +48,6 @@ TeXLive genmisc package.
 %{_texmfdistdir}/tex/generic/genmisc/endnote.tex
 %{_texmfdistdir}/tex/generic/genmisc/fakebold.tex
 %{_texmfdistdir}/tex/generic/genmisc/hep.tex
-%{_texmfdistdir}/tex/generic/genmisc/hexdump.sty
 %{_texmfdistdir}/tex/generic/genmisc/inscrutable.tex
 %{_texmfdistdir}/tex/generic/genmisc/laps.tex
 %{_texmfdistdir}/tex/generic/genmisc/letterspacing.tex
