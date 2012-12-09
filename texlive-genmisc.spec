@@ -80,3 +80,21 @@ TeXLive genmisc package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120807-1
++ Revision: 812271
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20111103-2
++ Revision: 752240
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111103-1
++ Revision: 718531
+- texlive-genmisc
+- texlive-genmisc
+- texlive-genmisc
+- texlive-genmisc
+
