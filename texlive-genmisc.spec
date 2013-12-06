@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-genmisc
 Version:	20120807
-Release:	4
+Release:	5
 Summary:	TeXLive genmisc package
 Group:		Publishing
 URL:		http://tug.org/texlive
