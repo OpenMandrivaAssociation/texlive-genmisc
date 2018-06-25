@@ -5,7 +5,7 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-genmisc
-Version:	20171120
+Version:	20180303
 Release:	1
 Summary:	TeXLive genmisc package
 Group:		Publishing
