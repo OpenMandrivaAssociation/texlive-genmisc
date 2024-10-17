@@ -9,7 +9,7 @@ Version:	20190228
 Release:	2
 Summary:	TeXLive genmisc package
 Group:		Publishing
-URL:		http://tug.org/texlive
+URL:		https://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/genmisc.tar.xz
 BuildArch:	noarch
